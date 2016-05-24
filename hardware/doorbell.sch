@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:borniers
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -307,17 +306,6 @@ F 3 "" H 2100 1300 50  0000 C CNN
 $EndComp
 Text GLabel 2100 1150 0    60   Input ~ 0
 VIN
-$Comp
-L DOOR P1
-U 1 1 573DA8E3
-P 1200 2050
-F 0 "P1" H 1100 2300 50  0000 C CNN
-F 1 "DOOR" H 1200 2240 40  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 1200 2050 60  0001 C CNN
-F 3 "" H 1200 2050 60  0000 C CNN
-	1    1200 2050
-	-1   0    0    1   
-$EndComp
 Text GLabel 1550 2150 2    60   Input ~ 0
 VIN
 Text GLabel 1550 1950 2    60   Input ~ 0
@@ -491,6 +479,17 @@ F 1 "MMBT3904" H 4550 4650 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 4550 4575 50  0000 L CIN
 F 3 "" H 4350 4650 50  0000 L CNN
 	1    4350 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L DOOR_CONN P1
+U 1 1 5744979E
+P 1350 2050
+F 0 "P1" H 1350 2250 50  0000 C CNN
+F 1 "DOOR_CONN" V 1450 2050 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 1350 2050 50  0001 C CNN
+F 3 "" H 1350 2050 50  0000 C CNN
+	1    1350 2050
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
